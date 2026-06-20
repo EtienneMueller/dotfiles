@@ -10,3 +10,5 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 # Packages
 brew install git wget
 brew install --cask firefox
+brew install --cask obsidian
+
