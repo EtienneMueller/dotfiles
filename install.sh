@@ -17,3 +17,24 @@ read -r
 
 # Clone repos
 git clone git@github.com:EtienneMueller/dotfiles.git ~/.dotfiles
+
+# Install Homebrew Casks
+brew install --cask anki
+brew install --cask appcleaner
+brew install --cask batteries
+brew install --cask eul
+brew install --cask jordanbaird-ice
+brew install --cask keyboardcleantool
+brew install --cask protonvpn
+brew install --cask rectangle
+brew install --cask spotify
+brew install --cask telegram
+brew install --cask todoist
+brew install --cask visual-studio-code
+brew install --cask vlc
+brew install --cask whatsapp
+brew install --cask zoom
+brew install --cask zotero
+
+brew install --cask google-chrome
+brew install --cask slack
