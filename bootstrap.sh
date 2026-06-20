@@ -1,5 +1,8 @@
 #!/bin/bash
 
+sudo cp /etc/pam.d/sudo_local.template /etc/pam.d/sudo_local
+sudo sed -i '' 's/#auth/auth/' /etc/pam.d/sudo_local
+
 xcode-select --install
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
