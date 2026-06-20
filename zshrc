@@ -1,10 +1,9 @@
 ### ALIASES
 alias ll='ls -alh'
+alias cd..='cd ..'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
-alias ~='cd ~'
-alias -- -='cd -'            # go back to previous directory
 alias brewup='brew update && brew upgrade && brew cleanup'
 
 
@@ -17,7 +16,7 @@ export PATH="$HOME/.dotfiles/scripts:$PATH"
 
 
 ### SHELL OPTIONS
-setopt INTERACTIVE_COMMENTS  # allow # comments in terminal
+setopt INTERACTIVE_COMMENTS  # allow comments in zsh
 
 
 ### PROMPT
