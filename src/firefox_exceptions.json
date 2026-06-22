@@ -1,0 +1,34 @@
+{
+  "policies": {
+    "Cookies": {
+      "Allow": [
+        "https://amazon.com",
+        "https://amazon.com.au",
+        "https://amazon.de",
+        "https://amazon.fr",
+        "https://booking.com",
+        "https://claude.ai",
+        "https://github.com",
+        "https://google.com",
+        "https://grammarly.com",
+        "https://groq.com",
+        "https://instapaper.com",
+        "https://linkedin.com",
+        "https://live.com",
+        "https://microsoft.com",
+        "https://microsoftonline.com",
+        "https://office.com",
+        "https://office365.com",
+        "https://proton.me",
+        "https://railway.co.th",
+        "https://skyscanner.co.th",
+        "https://tailscale.com",
+        "https://todoist.com",
+        "https://ycombinator.com",
+        "https://youtube.com",
+        "https://zotero.org"
+      ],
+      "ExpireAtSessionEnd": true
+    }
+  }
+}
