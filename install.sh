@@ -4,6 +4,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Create Symlinks
 ln -s ~/.dotfiles/src/zshrc ~/.zshrc
+sudo mkdir /Applications/Firefox.app/Contents/Resources/distribution
 sudo ln -s ~/.dotfiles/src/firefox_exceptions.json /Applications/Firefox.app/Contents/Resources/distribution/policies.json
 
 # Git config (from synced Documents file)
