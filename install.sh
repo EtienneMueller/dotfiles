@@ -2,6 +2,10 @@
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
+# Create Symlinks
+ln -s ~/.dotfiles/src/zshrc ~/.zshrc
+sudo ln -s ~/.dotfiles/src/firefox_exceptions.json /Applications/Firefox.app/Contents/Resources/distribution/policies.json
+
 # Git config (from synced Documents file)
 source ~/Documents/git.conf
 git config --global user.email "$GIT_EMAIL"
