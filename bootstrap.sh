@@ -8,7 +8,7 @@ xcode-select --install
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
-brew install git wget
 brew install --cask firefox
 brew install --cask obsidian
 
+open -a "Firefox" "https://www.pcloud.com/how-to-install-pcloud-drive-mac-os.html?download=mac"
