@@ -33,6 +33,7 @@ brew install --cask batteries
 brew install --cask eul
 brew install --cask fliqlo
 brew install --cask keyboardcleantool
+brew install --cask music-decoy
 brew install --cask protonvpn
 brew install --cask rectangle
 brew install --cask thaw
