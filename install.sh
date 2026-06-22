@@ -2,11 +2,6 @@
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
-# Create Symlinks
-ln -s ~/.dotfiles/src/zshrc ~/.zshrc
-sudo mkdir /Applications/Firefox.app/Contents/Resources/distribution
-sudo ln -s ~/.dotfiles/src/firefox_exceptions.json /Applications/Firefox.app/Contents/Resources/distribution/policies.json
-
 # Git config (from synced Documents file)
 source ~/Documents/git.conf
 git config --global user.email "$GIT_EMAIL"
@@ -22,6 +17,11 @@ read -r
 
 # Clone repos
 git clone git@github.com:EtienneMueller/dotfiles.git ~/.dotfiles
+
+# Create Symlinks
+ln -s ~/.dotfiles/src/zshrc ~/.zshrc
+sudo mkdir -p /Applications/Firefox.app/Contents/Resources/distribution
+sudo ln -s ~/.dotfiles/src/firefox_exceptions.json /Applications/Firefox.app/Contents/Resources/distribution/policies.json
 
 ### Install Apps & Tools
 # Apps
